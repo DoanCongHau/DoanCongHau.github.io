@@ -5,6 +5,12 @@ body {
     height: 100vh;
     background-color: #1e2f27;
 }
+.player {
+    max-width:200px;
+    position:absolute;
+    top:5rem;
+    right:30rem;
+}
 
 .present {
     user-select: none;
