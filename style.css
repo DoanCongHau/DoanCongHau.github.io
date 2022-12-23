@@ -5,6 +5,7 @@ body {
     height: 100vh;
     background-color: #1e2f27;
 }
+
 .present {
     user-select: none;
     position: relative;
@@ -227,16 +228,17 @@ body {
 }
 .hide {
     display: none;
-    
+   
 }
+
       
-.present:hover + .hide {
+.present:hover +.hide {
     display: block;
     color: plum;
-    font-size: 30px;
+    font-size: 2rem;
     position: relative;
-    bottom: 170px;
-    left: -50px;
+    bottom: 10rem;
+    left: auto;
     
 }
 
